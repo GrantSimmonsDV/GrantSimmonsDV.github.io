@@ -102,6 +102,14 @@ h2 {
     justify-content: center; */
 }
 
+.menu_items a:visited {
+color: rgb(137, 221, 255);
+}
+
+.menu_items a {
+  text-decoration: none;
+}
+
 .menu_items > * {
   padding: 9px;
 }
