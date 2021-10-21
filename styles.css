@@ -103,7 +103,7 @@ h2 {
 }
 
 .menu_items a:visited {
-color: rgb(137, 221, 255);
+  color: rgb(137, 221, 255);
 }
 
 .menu_items a {
@@ -175,6 +175,13 @@ h1 {
   height: 320px;
   width: 470px;
   object-fit: cover;
+}
+
+.serviceTrade > .project_image {
+  height: 320px;
+  width: 470px;
+  object-fit: contain;
+  margin: 16px 0;
 }
 
 .skills_list {
