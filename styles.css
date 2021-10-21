@@ -174,15 +174,17 @@ h1 {
 .project_image {
   height: 320px;
   width: 470px;
-  object-fit: cover;
+  object-fit: contain;
+  margin: 5px 0;
+  object-position: 0;
 }
 
-.serviceTrade > .project_image {
+/* .serviceTrade > .project_image {
   height: 320px;
   width: 470px;
   object-fit: contain;
   margin: 16px 0;
-}
+} */
 
 .skills_list {
   list-style-type: none;
